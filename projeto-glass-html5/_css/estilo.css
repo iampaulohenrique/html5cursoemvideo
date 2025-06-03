@@ -1,12 +1,28 @@
 @charset "utf-08";
 
 body {
-    background-color: hsl(0, 0%, 100%)
+    background-color: #DDDDDD;
+}
+
+div#interface {
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 1px 1px 20px black;
+    padding: 15px;
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
+}
+header#cabecalho img#icone{
+position: absolute;
+left: 1250px;
+top: 40px;
+}
+header#cabecalho{
+
 }
 
 /*formatação de imagens com legendas */
