@@ -1,5 +1,9 @@
 @charset "utf-08";
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("/projeto-glass-html5/_fonts/bubblegum-sans-regular.otf");
+}
 body {
     background-color: #DDDDDD;
 }
@@ -29,7 +33,7 @@ header#cabecalho {
     background: url("/projeto-glass-html5/_imagens/glass-logo-peq.jpg")no-repeat 0px 80px;
 }
 header#cabecalho h1{
-    font-family: Arial, sans-serif;
+    font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
@@ -38,7 +42,7 @@ header#cabecalho h1{
 
 }
 header#cabecalho h2 {
-font-family: Arial, sans-serif;
+font-family: "Quicksand", sans-serif;
 color: #888;
 font-size: 15pt;
 padding: 0px;
